@@ -1,0 +1,878 @@
+{
+  "credit": "Cod Slipper - a chubby cod you wear on your foot. Front (toes) = north. Shown by the CodSlippers plugin on item displays.",
+  "texture_size": [
+    32,
+    32
+  ],
+  "textures": {
+    "cod": "ei:item/cod_slipper_skin",
+    "eye": "ei:item/cod_slipper_eye",
+    "pupil": "ei:item/cod_slipper_pupil",
+    "mouth": "ei:item/cod_slipper_mouth",
+    "sole": "ei:item/cod_slipper_sole",
+    "particle": "ei:item/cod_slipper_skin"
+  },
+  "elements": [
+    {
+      "name": "fluffy sole",
+      "from": [
+        4.8,
+        4.2,
+        -0.3
+      ],
+      "to": [
+        11.2,
+        5,
+        13.2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            6.4,
+            0.8
+          ],
+          "texture": "#sole"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            13.5,
+            0.8
+          ],
+          "texture": "#sole"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            6.4,
+            0.8
+          ],
+          "texture": "#sole"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            13.5,
+            0.8
+          ],
+          "texture": "#sole"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            6.4,
+            13.5
+          ],
+          "texture": "#sole"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            6.4,
+            13.5
+          ],
+          "texture": "#sole"
+        }
+      }
+    },
+    {
+      "name": "body",
+      "from": [
+        5,
+        5,
+        3
+      ],
+      "to": [
+        11,
+        10,
+        13
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            3.5,
+            3.5,
+            4.5,
+            5.5
+          ],
+          "texture": "#cod"
+        },
+        "east": {
+          "uv": [
+            0,
+            3.5,
+            3.5,
+            5.5
+          ],
+          "texture": "#cod"
+        },
+        "south": {
+          "uv": [
+            8,
+            3.5,
+            9,
+            5.5
+          ],
+          "texture": "#cod"
+        },
+        "west": {
+          "uv": [
+            4.5,
+            3.5,
+            8,
+            5.5
+          ],
+          "texture": "#cod"
+        },
+        "up": {
+          "uv": [
+            3.5,
+            0,
+            4.5,
+            3.5
+          ],
+          "texture": "#cod"
+        },
+        "down": {
+          "uv": [
+            4.5,
+            0,
+            5.5,
+            3.5
+          ],
+          "texture": "#cod"
+        }
+      }
+    },
+    {
+      "name": "head (toes)",
+      "from": [
+        5.5,
+        5,
+        -0.5
+      ],
+      "to": [
+        10.5,
+        9.6,
+        3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            1.5,
+            8,
+            3.5
+          ],
+          "texture": "#cod"
+        },
+        "east": {
+          "uv": [
+            5.5,
+            1.5,
+            7,
+            3.5
+          ],
+          "texture": "#cod"
+        },
+        "west": {
+          "uv": [
+            8,
+            1.5,
+            9.5,
+            3.5
+          ],
+          "texture": "#cod"
+        },
+        "up": {
+          "uv": [
+            7,
+            0,
+            8,
+            1.5
+          ],
+          "texture": "#cod"
+        },
+        "down": {
+          "uv": [
+            8,
+            0,
+            9,
+            1.5
+          ],
+          "texture": "#cod"
+        }
+      }
+    },
+    {
+      "name": "snout",
+      "from": [
+        6.5,
+        5.2,
+        -2.3
+      ],
+      "to": [
+        9.5,
+        8.6,
+        -0.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            1.5,
+            8,
+            3.5
+          ],
+          "texture": "#cod"
+        },
+        "east": {
+          "uv": [
+            5.5,
+            1.5,
+            6.5,
+            3.5
+          ],
+          "texture": "#cod"
+        },
+        "west": {
+          "uv": [
+            8,
+            1.5,
+            9,
+            3.5
+          ],
+          "texture": "#cod"
+        },
+        "up": {
+          "uv": [
+            7,
+            0,
+            8,
+            1.5
+          ],
+          "texture": "#cod"
+        },
+        "down": {
+          "uv": [
+            8,
+            0,
+            9,
+            1.5
+          ],
+          "texture": "#cod"
+        }
+      }
+    },
+    {
+      "name": "gaping mouth",
+      "from": [
+        7,
+        5.6,
+        -2.45
+      ],
+      "to": [
+        9,
+        7.4,
+        -2.3
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            3,
+            2
+          ],
+          "texture": "#mouth"
+        }
+      }
+    },
+    {
+      "name": "mini dorsal fin",
+      "from": [
+        8,
+        10,
+        0
+      ],
+      "to": [
+        8,
+        11.5,
+        3.5
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            10,
+            0,
+            13,
+            0.5
+          ],
+          "texture": "#cod"
+        },
+        "west": {
+          "uv": [
+            10,
+            0,
+            13,
+            0.5
+          ],
+          "texture": "#cod"
+        }
+      }
+    },
+    {
+      "name": "left googly eye",
+      "from": [
+        3.8,
+        8.0,
+        -0.2
+      ],
+      "to": [
+        5.6,
+        10.4,
+        2.2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            2
+          ],
+          "texture": "#eye"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            2
+          ],
+          "texture": "#eye"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": "#eye"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            2
+          ],
+          "texture": "#eye"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            2
+          ],
+          "texture": "#eye"
+        }
+      }
+    },
+    {
+      "name": "left pupil (looking up)",
+      "from": [
+        3.4,
+        9.0,
+        0.5
+      ],
+      "to": [
+        3.8,
+        10.0,
+        1.5
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "texture": "#pupil"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "texture": "#pupil"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "texture": "#pupil"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "texture": "#pupil"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "texture": "#pupil"
+        }
+      }
+    },
+    {
+      "name": "right googly eye",
+      "from": [
+        10.4,
+        8.0,
+        -0.2
+      ],
+      "to": [
+        12.2,
+        10.4,
+        2.2
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            2
+          ],
+          "texture": "#eye"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            2
+          ],
+          "texture": "#eye"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            2,
+            2
+          ],
+          "texture": "#eye"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            2
+          ],
+          "texture": "#eye"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1.5,
+            2
+          ],
+          "texture": "#eye"
+        }
+      }
+    },
+    {
+      "name": "right pupil (derpy, looking down)",
+      "from": [
+        12.2,
+        8.2,
+        0.0
+      ],
+      "to": [
+        12.6,
+        9.2,
+        1.0
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "texture": "#pupil"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "texture": "#pupil"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "texture": "#pupil"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "texture": "#pupil"
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "texture": "#pupil"
+        }
+      }
+    },
+    {
+      "name": "left flapper fin",
+      "from": [
+        2.5,
+        6,
+        5
+      ],
+      "to": [
+        5,
+        6,
+        8
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "z",
+        "origin": [
+          5,
+          6,
+          6.5
+        ]
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            13,
+            0.5,
+            14,
+            1.5
+          ],
+          "texture": "#cod"
+        },
+        "down": {
+          "uv": [
+            13,
+            0.5,
+            14,
+            1.5
+          ],
+          "texture": "#cod"
+        }
+      }
+    },
+    {
+      "name": "right flapper fin",
+      "from": [
+        11,
+        6,
+        5
+      ],
+      "to": [
+        13.5,
+        6,
+        8
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "z",
+        "origin": [
+          11,
+          6,
+          6.5
+        ]
+      },
+      "faces": {
+        "up": {
+          "uv": [
+            13,
+            0.5,
+            14,
+            1.5
+          ],
+          "texture": "#cod"
+        },
+        "down": {
+          "uv": [
+            13,
+            0.5,
+            14,
+            1.5
+          ],
+          "texture": "#cod"
+        }
+      }
+    },
+    {
+      "name": "tail fork left",
+      "from": [
+        8,
+        5.5,
+        12.5
+      ],
+      "to": [
+        8,
+        12.5,
+        18
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          13
+        ]
+      },
+      "faces": {
+        "east": {
+          "uv": [
+            10,
+            2.5,
+            12,
+            4.5
+          ],
+          "texture": "#cod"
+        },
+        "west": {
+          "uv": [
+            12,
+            2.5,
+            14,
+            4.5
+          ],
+          "texture": "#cod"
+        }
+      }
+    },
+    {
+      "name": "tail fork right",
+      "from": [
+        8,
+        5.5,
+        12.5
+      ],
+      "to": [
+        8,
+        12.5,
+        18
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "y",
+        "origin": [
+          8,
+          8,
+          13
+        ]
+      },
+      "faces": {
+        "east": {
+          "uv": [
+            10,
+            2.5,
+            12,
+            4.5
+          ],
+          "texture": "#cod"
+        },
+        "west": {
+          "uv": [
+            12,
+            2.5,
+            14,
+            4.5
+          ],
+          "texture": "#cod"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        25,
+        145,
+        0
+      ],
+      "translation": [
+        0,
+        0.5,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        70,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        1
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        70,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        1
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        5,
+        160,
+        0
+      ],
+      "translation": [
+        1,
+        3,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        5,
+        200,
+        0
+      ],
+      "translation": [
+        -1,
+        3,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        6,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

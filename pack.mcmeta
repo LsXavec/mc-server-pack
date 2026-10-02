@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "pack_format": 46,
+    "supported_formats": [46, 84],
+    "min_format": 46,
+    "max_format": 84,
+    "description": "§fResource Pack §e§Exemple§f."
+  }
+}
